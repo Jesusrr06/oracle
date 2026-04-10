@@ -213,13 +213,16 @@ public class PRO_UD08_BD_Alquileres_JRR
 
         System.out.println("-----------------------------------------------------------");
 
-        while (_resultado.next())
-        {
-            System.out.printf("%10s | %-15s | %-20s | %-25s | %-30s    %4d\n", _resultado.getString(1),
-                    _resultado.getString(2), _resultado.getString(3),
-                    _resultado.getInt(4),_resultado.getString(5) ,_resultado.getBoolean(6) );
-
-        }
+         int valor = _resultado.getInt(6);
+boolean admin = (valor == 1);
+            System.out.printf( " %10s, %-15s ,%-20s ,%-25s, %-30s , %-35s ", 
+                    
+                    _resultado.getString(1),
+                    _resultado.getString(2),
+                    _resultado.getString(3),
+                    _resultado.getInt(4),
+                    _resultado.getString(5) ,
+                     (admin? "si":"no") );
     }
 
 }
