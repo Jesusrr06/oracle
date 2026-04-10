@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package pro_ud08_oracle_usuario;
+package pro_ud08_oracle_jrr;
 
 import java.io.File;
 import java.io.IOException;
@@ -34,7 +34,7 @@ import org.xml.sax.SAXException;
  *
  * @author virtual
  */
-public class PRO_UD08_ORACLE_Usuario {
+public class PRO_UD08_ORACLE_JRR {
 
     static ArrayList<Cliente> lUsuarios;
 

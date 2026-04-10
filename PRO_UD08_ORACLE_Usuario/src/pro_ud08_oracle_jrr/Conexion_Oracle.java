@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package pro_ud08_oracle_usuario;
+package pro_ud08_oracle_jrr;
 
 import java.sql.*;
 
