@@ -326,7 +326,7 @@ public class PRO_UD08_ORACLE_JRR {
 
         while (_resultado.next())
         {
-            System.out.printf(" %10s, %-15s ,%-20s ,%-20s, %-10s",
+            System.out.printf(" %10s  %-15s  %-20s  %-20s  %-10s",
                _resultado.getString(1),     _resultado.getString(2), _resultado.getString(3), _resultado.getString(4) , _resultado.getInt(5));
 
         }
